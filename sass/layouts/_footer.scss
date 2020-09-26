@@ -1,0 +1,121 @@
+.footer {
+    background-color: #2F303A;
+    margin-left: auto;
+    margin-right: auto;  
+    padding-left: 15px;
+    scroll-padding-right: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: baseline;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    
+     &-text {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #fff;
+     }
+     &-icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+     }
+
+    &-icon-link:hover {
+    background-color: #2196F3;
+     }
+     &-input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    resize: none;
+    margin-top: 0;
+    padding: 15px 16px;
+    outline: 0;
+    color: #fff;
+     }
+     &-class {
+        display: flex;
+    }
+    
+      &-form {
+        margin-top: 12px;
+        margin-left: 75px;
+    }
+     &-box {
+        margin-top: 12px;
+        margin-left: 70px;
+        }
+     &-icon-list {
+        justify-items: center;
+        align-items: center;
+        padding-bottom: 30px;
+        display: flex;
+        }
+     &-icon-item:not(:last-child) {
+       margin-right: 10px;
+        }
+        
+     &-icon {
+            width: 20px;
+            height: 20px;
+            fill: #FFFFFF;
+        }
+        
+}
+.logo-white {
+    color: #FFFFFF;
+    font-family: Raleway, sans-serif; 
+}
+
+
+.address {
+    color: $primary-white-color;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71em;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 9px;
+    width: 231px;
+    height: 21px;
+    
+    
+}
+.email {
+    margin-bottom: 9px;
+}
+
+.contacts {
+    color: $footer-contacts-color;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71em;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    text-decoration: none;
+    width: 231px;
+    height: 21px;
+}
